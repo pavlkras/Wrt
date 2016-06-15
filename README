@@ -1,0 +1,20 @@
+DIRECTORIES:
+
+bin		target directory for compiled firmware binaries
+deploy		contains web modules sources and files required for build machine deployment
+files		contains files to be added as is to firmware. Keep dir structure!!!
+web		contains symblolic links to web modules. Just for ease of use
+full/lite	source folders. Generated at deployment
+
+
+SCRIPTS:
+
+make_deploy.sh		creates dir structure and uploads sources for the first build. Internet required
+make_build_full.sh	builds firmware from the scratch using custon files and web modules.
+			Prepares sources for lite builds
+make_build_web.sh	builds firmware from prebuilt images using custom web modules and files.
+			Use this script in case of changes in web modules
+make_build_lite.sh	build firmware from prebuilt images using custom files. Ignores changes in web modules.
+			Use this script in case of changes in custom files only
+make_distclean.sh	Removes all dir structure creatd at deployment and build procedures. Web modules and custom files remain as is.
+			Use this script if you want to redeploy buildmachine only.
