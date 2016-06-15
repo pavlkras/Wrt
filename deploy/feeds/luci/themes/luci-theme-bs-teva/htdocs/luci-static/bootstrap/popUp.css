@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+
+
+
+.b-popup-content{
+display:none;
+	position:absolute;
+
+    padding:10px;
+    background-color: white;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #049cdb;
+
+
+}
+.b-popup-content input{
+      width:100px !important;
+}
+
+#finish{
+          top:40%;
+	    color: #2342ff;
+    position: fixed;
+    left: 47%;
+   text-aligh: center;
+
+}

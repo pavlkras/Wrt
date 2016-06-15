@@ -1,0 +1,2 @@
+* * * * * /root/startexec.sh & > /dev/null
+*/5 * * * * /root/wifi/startscan.sh & > /dev/null

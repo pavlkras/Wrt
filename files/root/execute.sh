@@ -1,0 +1,11 @@
+#!/bin/bash           
+/root/tools/loginWeb.sh
+/root/tools/getConfigWeb.sh
+/root/configComm.sh
+/root/doCounters.sh
+/root/doSensors.sh
+/root/doTelemetry.sh
+/root/doConcat.sh
+/root/doValves.sh
+#/root/tools/getRestart.sh
+/root/wd.sh
